@@ -12,8 +12,8 @@ You will find this is far easier than the opposite task of using CSS to cram you
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
 /* Start your base/mobile styles here */
 
-html, body {
-  /* Sets default font-size to 16px, ensuring 1em = 16px; */
+head {
+  align-content: center;
 }
 
 body {
@@ -26,13 +26,23 @@ body {
   color: #000000
 }
 
+head {
+  position: fixed;
+}
+
 h1 {
-  font-size: 25px;
-  align-items: center;
+  font-size: 2em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  text-align: center;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: .5em;
+  text-align: center;
 }
 
 img {
@@ -55,6 +65,22 @@ figcaption {
   /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
   html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
+  }
+  h1 {
+    font-size: 75px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  figcaption {
+    font-size: 15px;
+    font-style: italic;
   }
   .container {
     max-width: 800px;
